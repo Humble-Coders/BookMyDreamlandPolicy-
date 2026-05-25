@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delete Account – Book My Dreamland</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0d1f14;
+      color: #e8e8e8;
+      line-height: 1.75;
+      padding: 0 1rem 4rem;
+    }
+
+    header {
+      background: #0a1a0f;
+      border-bottom: 2px solid #c9a84c;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 1.9rem;
+      color: #c9a84c;
+      letter-spacing: 0.5px;
+    }
+
+    header p {
+      margin-top: 0.4rem;
+      font-size: 0.9rem;
+      color: #a0b5a5;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 2.5rem auto 0;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      color: #c9a84c;
+      margin: 2.2rem 0 0.6rem;
+      border-left: 3px solid #c9a84c;
+      padding-left: 0.75rem;
+    }
+
+    p { margin-bottom: 0.75rem; }
+
+    ul {
+      margin: 0.4rem 0 0.75rem 1.4rem;
+    }
+
+    ul li { margin-bottom: 0.35rem; }
+
+    a { color: #c9a84c; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .steps {
+      counter-reset: step;
+      list-style: none;
+      margin: 0.4rem 0 0.75rem 0;
+    }
+
+    .steps li {
+      counter-increment: step;
+      display: flex;
+      gap: 0.9rem;
+      margin-bottom: 0.9rem;
+      align-items: flex-start;
+    }
+
+    .steps li::before {
+      content: counter(step);
+      background: #c9a84c;
+      color: #0a1a0f;
+      font-weight: 700;
+      font-size: 0.85rem;
+      min-width: 1.7rem;
+      height: 1.7rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 0.15rem;
+    }
+
+    .card {
+      background: #122019;
+      border: 1px solid #1e3828;
+      border-radius: 10px;
+      padding: 1.4rem 1.6rem;
+      margin: 1.2rem 0;
+    }
+
+    .card p { margin-bottom: 0; }
+
+    .warning {
+      background: #1f140a;
+      border: 1px solid #6b3a10;
+      border-radius: 10px;
+      padding: 1rem 1.4rem;
+      margin: 1.2rem 0;
+      font-size: 0.92rem;
+      color: #d4956a;
+    }
+
+    .warning strong { color: #e8a86a; }
+
+    .email-btn {
+      display: inline-block;
+      margin-top: 0.5rem;
+      background: #c9a84c;
+      color: #0a1a0f;
+      font-weight: 700;
+      padding: 0.65rem 1.4rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      text-decoration: none;
+    }
+
+    .email-btn:hover { background: #e0bc6a; text-decoration: none; }
+
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.82rem;
+      color: #5a7a5f;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Book My Dreamland</h1>
+  <p>Account Deletion Request</p>
+</header>
+
+<main>
+
+  <p>
+    You can request the deletion of your <strong>Book My Dreamland</strong> account and all associated personal data at any time. This page explains what gets deleted, what may be retained, and how to submit your request.
+  </p>
+
+  <div class="warning">
+    <strong>Warning:</strong> Account deletion is permanent and cannot be undone. All your data, including bookings and reviews, will be removed from our systems.
+  </div>
+
+  <h2>How to Delete Your Account</h2>
+
+  <p>Send an email to our support team from the email address linked to your account:</p>
+
+  <div class="card">
+    <p>Email: <a href="mailto:executives@humblesolutions.in?subject=Account%20Deletion%20Request%20–%20Book%20My%20Dreamland&body=Hello%2C%0A%0AI%20would%20like%20to%20permanently%20delete%20my%20Book%20My%20Dreamland%20account.%0A%0ARegistered%20email%3A%20%5Byour%20email%5D%0ARegistered%20phone%3A%20%5Byour%20phone%20number%5D%0A%0AThank%20you.">executives@humblesolutions.in</a></p>
+    <p style="margin-top:0.4rem; font-size:0.9rem; color:#8aaa8f;">Use the subject line: <em>Account Deletion Request – Book My Dreamland</em></p>
+    <a class="email-btn" href="mailto:executives@humblesolutions.in?subject=Account%20Deletion%20Request%20–%20Book%20My%20Dreamland&body=Hello%2C%0A%0AI%20would%20like%20to%20permanently%20delete%20my%20Book%20My%20Dreamland%20account.%0A%0ARegistered%20email%3A%20%5Byour%20email%5D%0ARegistered%20phone%3A%20%5Byour%20phone%20number%5D%0A%0AThank%20you.">Send Deletion Request</a>
+  </div>
+
+  <p>Please include the following in your email:</p>
+  <ol class="steps">
+    <li>The email address registered to your account</li>
+    <li>The phone number registered to your account (if applicable)</li>
+    <li>A brief statement that you wish to permanently delete your account</li>
+  </ol>
+
+  <p>We will process your request within <strong>7 business days</strong> and send a confirmation once deletion is complete.</p>
+
+  <h2>What Gets Deleted</h2>
+  <ul>
+    <li>Your account credentials (email, phone number, password)</li>
+    <li>Your profile information (display name, photo)</li>
+    <li>All booking records associated with your account</li>
+    <li>All reviews and ratings you have submitted</li>
+    <li>Your saved/bookmarked hotels and preferences</li>
+  </ul>
+
+  <h2>What May Be Retained</h2>
+  <p>We may retain certain anonymised or aggregated data that cannot identify you, such as aggregated review scores used to compute overall hotel ratings. We may also retain records required by law or for legitimate business purposes (e.g. fraud prevention) for up to 90 days after your deletion request is fulfilled.</p>
+
+  <h2>Data Stored on Your Device</h2>
+  <p>Deleting your account does not automatically remove data cached locally on your device. To remove this data, uninstall the App from your device after your account has been deleted.</p>
+
+  <h2>Questions?</h2>
+  <p>If you have any questions about the deletion process, please contact us at <a href="mailto:executives@humblesolutions.in">executives@humblesolutions.in</a>.</p>
+
+</main>
+
+<footer>
+  &copy; 2025 Humble Solutions. All rights reserved.
+</footer>
+
+</body>
+</html>
